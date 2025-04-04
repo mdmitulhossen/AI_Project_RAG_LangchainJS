@@ -1,0 +1,30 @@
+{
+  "name": "pdf-qa-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node index2.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/pdf-parse": "^1.1.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@huggingface/inference": "^2.8.1",
+    "@langchain/community": "^0.3.39",
+    "@langchain/core": "^0.3.43",
+    "@langchain/groq": "^0.2.1",
+    "dotenv": "^16.4.7",
+    "faiss-node": "^0.5.1",
+    "pdf-parse": "^1.1.1"
+  }
+}
