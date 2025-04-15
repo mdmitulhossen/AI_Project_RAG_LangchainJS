@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node index2.ts",
+    "dev": "ts-node index3.ts",
     "build": "tsc",
     "start": "node dist/index.js"
   },
